@@ -37,7 +37,7 @@ jobs:
 
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v3
+        uses: actions/upload-artifact@f43a0e5ff2bd294095638e18286ca9a3d1956744
         with:
           name: production-files
           path: ./dist
